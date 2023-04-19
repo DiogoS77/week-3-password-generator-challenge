@@ -15,11 +15,22 @@ function writePassword() {
 
 // Generate password
 function generatePassword() {
-  var length = prompt("How many characters would you like your password to contain?");
-  var lowercase = confirm("Would you like to include lowercase letters?");
-  var uppercase = confirm("Would you like to include uppercase letters?");
-  var numeric = confirm("Would you like to include numeric characters?");
-  var special = confirm("Would you like to include special characters?");
+  var length = prompt("How many characters would you like your password to have?");
+  var lowercase = confirm("Would you like to add lowercase letters?");
+  var uppercase = confirm("Would you like to add uppercase letters?");
+  var numeric = confirm("Would you like to add numeric characters?");
+  var special = confirm("Would you like to add special characters?");
+
+  // Validate user input
+  if (isNaN(length) || length < 8 || length > 128) {
+    alert("Password length needs to be number between 8 and 128 characters");
+    return "";
+  }
+
+  if (!lowercase && !uppercase && !numeric && !special) {
+    alert("You must select at least one character type");
+    return "";
+  }
 
 // Generate password
 var password = "";
