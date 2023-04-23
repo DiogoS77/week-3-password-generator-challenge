@@ -30,17 +30,21 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Description
 
+This project is bascially the creation of a password generator. This webpage contains a generator that will help you make a password depending on your input preference. You can choose multiple options when building your password likepassword lenght (between 8 and 128), upper or lower case letters, numeric numbers or even special characters. So with this customization you should be able to achieve a really strong password.
 
+The biggest challenge i found while doing it was how to work with javascript since i was a bit lost. What helped me was using the If statements because i had visual basic at college and the way you would use the if statements was very similar, and that helped me a lot in how to work with it.
 
-* 
-* 
-* 
-* 
+I really think this password generator has a lot of potential, since we can make some upgrades on it like what password based topic the user wants and then addint the options the user added could actually make this password generator usefull.
 
+This challenge helped me pass my limits since i was stuck on javascript without knowing what to do and also helped me in pther stuff that i will be listing bellow.
+
+* How to work with JavaScript
+* How to make a Js, Cs , Index work all together 
+* Understanding of JavaScript structure
 
 ## Usage
 
-
+This is a Password Generator. This is a simple website to make a strong password. This website is simple and straightforward. So to use it you just need to click on the red button that says (Generate Password) and follow it. When you click on the button will appear multiple options like character lenght, if you want lower or upper case letters, numeric or even special characters. If you decide to add one of the options you click ok if not you just click on cancel. If some of the rules to make a strong password are not meet you will get a warning at the end.
 
 ![alt text](/assets/images/passwordGen.png "End Result Screenshot")
 
