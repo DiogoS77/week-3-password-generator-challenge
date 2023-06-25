@@ -48,6 +48,8 @@ This is a Password Generator. This is a simple website to make a strong password
 
 ![alt text](/assets/images/passwordGen.png "End Result Screenshot")
 
+Deployed Application: https://diogos77.github.io/week-3-password-generator-challenge/
+
 ## License
 
 N/A
